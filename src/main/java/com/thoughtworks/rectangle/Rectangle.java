@@ -9,9 +9,9 @@ public class Rectangle {
         this.length = length;
         this.breadth = breadth;
     }
-    public void area(){
+    public int area(){
         this.area= this.length * this.breadth;
-          
+        return this.area;
     }
     public int getArea(){
        return area;
